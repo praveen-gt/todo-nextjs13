@@ -41,6 +41,7 @@ const Page = () => {
       setUser(data.user)
       toast.success(data.message);
     } catch (error) {
+      console.log(error)
       return toast.error(error)
     }
   }
