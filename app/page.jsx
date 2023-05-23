@@ -7,10 +7,10 @@ const page = async () => {
 
   return (
     <div className="container">
-      <Loading/>
+      {/* <Loading/> */}
       <Form />
       <Suspense fallback={<Loading />}>
-      {/* <Todos /> */}
+      <Todos />
       </Suspense>
 
     </div>
