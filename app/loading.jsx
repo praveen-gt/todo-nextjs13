@@ -1,9 +1,19 @@
-import React from 'react'
+"use client"
 
-const loading = () => {
-  return (
-    <div className='loader'>loading</div>
-  )
+import React from 'react'
+// import { RotatingLines } from 'react-loader-spinner'
+
+const Loading = () => {
+    return (
+        <div className='loader'>loading</div>
+        // <RotatingLines
+        //     strokeColor="grey"
+        //     strokeWidth="5"
+        //     animationDuration="0.75"
+        //     width="96"
+        //     visible={true}
+        // />
+    )
 }
 
-export default loading
+export default Loading

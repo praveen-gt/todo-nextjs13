@@ -28,7 +28,7 @@ const Page = () => {
     // validate();
     e.preventDefault();
     try {
-      const res = await fetch(`${process.env.URL}/api/auth/register`, {
+      const res = await fetch('/api/auth/register', {
         method: "POST",
         headers: {
           "Content-Type": "application/json"
